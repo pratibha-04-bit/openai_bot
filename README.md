@@ -1,6 +1,5 @@
 from django.test import TestCase
 from phoenix_NA.models import *
-
 class ClientTestCase(TestCase):
     def setUp(self):
         self.client_name = "Test Client"
